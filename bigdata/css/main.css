@@ -1,0 +1,48 @@
+
+html {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+
+}
+
+body {
+	text-align: center;
+}
+
+h1 {
+	font-family: "Century Gothic", Calibri, sans-serif;
+		ont-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+.my_paragraphs{
+	color: #CC46CB;
+}
+
+.my_paragraphs a { 
+	color: #CC46CB;
+}
+
+a:link {
+    color: #CC46CB;
+}
+
+
+a:active {
+    color: #CC46CB;
+}
+
+a:visited {
+    color: #CC46CB;
+}
+
+a:hover {
+  color: orange;
+}
