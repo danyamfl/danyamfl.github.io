@@ -288,6 +288,10 @@ a {
 .text-secondary {
   color: #F27F56 !important; }
 
+.lead {
+  font-size: .5rem;
+}  
+
 .text-tertiary {
   color: #F2DCD6 !important; }
 
