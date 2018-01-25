@@ -282,6 +282,9 @@ a {
   background-color: #fff !important; }
   /* Change this color back to 2C3E50 if everything messes up */
 
+.bg-tertiary {
+  background-color: #F27F56 !important; }  
+
 .text-primary {
   color: #F34737 !important; }
 
