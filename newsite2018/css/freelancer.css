@@ -283,18 +283,17 @@ a {
   /* Change this color back to 2C3E50 if everything messes up */
 
 .bg-tertiary {
-  background-color: #F27F56 !important; }  
+  background-color: #F2DCD6 !important; }  
 
 .text-primary {
   color: #F34737 !important; }
 
 .text-secondary {
   color: #F27F56 !important;
-  font-size: .85rem;
    }
 
 .lead {
-  font-size: .75rem;
+  font-size: .85rem;
 }  
 
 .text-tertiary {
