@@ -1,41 +1,498 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8"> 
-    <title>Hello World</title>
-    <style>
 
-.blocktext {
-    margin-left: auto;
-    margin-right: auto;
-   
-}
-html {
-  font-family: Gill Sans MT, Arial, helvetica;
-  font-size: 18px;
-  line-height: 24px;
-}
-h1 {
-    text-align: center;
-}
-p {
-    background-color: #ffffff;
-    width: 800px;
-}
-IMG.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto }
-</style>
-</head>
-<body>
-<div id="wrapper"/>
-    <h1 class="blocktext">DANYA M. F. LITTLEFIELD</h1>
-    <p class="blocktext">I am a Master of City Planning candidate at MIT's Department of Urban Studies and Planning. This website will display the data visualizations that I am making in the spring 2017 class, Big Data Visualization.</p>
-    <p class="blocktext">Before coming to MIT, I worked for an urban agriculture pilot project in Nicaragua, as an environmental educator in Maine, Massachusetts, and Baltimore, and at an energy efficiency consulting firm in Vermont. My background in installation art and sculpture from my undergraduate degree has influenced my past projects, as well as my current work in urban design and graphical representation. Check out my online portfolio <a href="http://www.danyafrench.com">here.</a></p>
-    <img class=displayed src="https://github.com/danyamfl/danyamfl.github.io/blob/master/images/over_here.jpg?raw=true"/>
-    <p class="blocktext"> <a href="http://www.paulmay.org/work/from-over-here">From Over Here by Paul May</a> </p>
-    <p class="blocktext">This is an example of a data visualization that I love because it is both graphical representation of data and a physical, interactive object. The artist, Paul May, writes that "data from the New York Times was pulled into custom software, which calculated the size of each card, and rendered its shape precisely. Shape files were sent to a laser cutter, producing individual cards. The cards were then stacked on a vertical rail."</p>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Danya M. F. Littlefield</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Danya M. F. Littlefield</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-tertiary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            
+            
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Projects</a>
+            </li>
+			<li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+
+
+    <!-- Header -->
+    <header class="masthead bg-primary text-center" style= "
+    padding-top: 100px;
+    padding-bottom: 30px;"
+>
+      <div class="container">
+        <img class="img-fluid d-block mx-auto" src="img/blocks_header.png" alt="">
+        <h1 class="text-uppercase mb-0"></h1>
+        <h2 class="font-weight-light mb-0 text-tertiary text-uppercase">Planning   /   Urban Design   /   Research</h2>
+      </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Projects</h2>
+        <hr class="star-light mb-5">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-red">
+                  <p></br>Imagine Madison, Summer 2017</p> 
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/FLUMap_Icon.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-red">
+                  <p>Connecting Bowdoin Geneva<br>Spring 2017</p>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/BGMS_Icon.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-red">
+                  <p></br>Prelude | Procession | Pond | Party</br>Ecological Urbanism, Fall 2017</p> 
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/Ecourb_Icon.png" alt="">
+            </a>
+          </div>
+          <!-- <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-red">
+                  <p>Bronx River Greenway Maps </br>Geospatial Analysis, Fall 2016</p> 
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/GISmap_Icon.png" alt="">
+            </a>
+          </div> -->
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-red">
+                  <p>Boston Zero</br>Modeling Urban Energy Flows, Spring 2017</p> 
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/BostonZero.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-red">
+                  <p>Is the Middle Class Left Out in Pennsylvania?</br>Big Data Visualization, Spring 2017</p> 
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/Bigdata3_Icon.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-red">
+                  <p></br>Urban Design Skills, Fall 2016</p> 
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/Wedge_Icon.png" alt="">
+            </a>
+          </div>
+         
+          <!-- <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-red">
+                  <p>Prelude | Procession | Pond | Party</br>Ecological Urbanism, Fall 2017</p> 
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/Ecourb_Icon.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-red">
+                  <p>Prelude | Procession | Pond | Party</br>Ecological Urbanism, Fall 2017</p> 
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/Ecourb_Icon.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-red">
+                  <p>Prelude | Procession | Pond | Party</br>Ecological Urbanism, Fall 2017</p> 
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/Ecourb_Icon.png" alt="">
+            </a>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-primary mb-0" id="about">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-primary">About</h2>
+        <hr class="star-light mb-5">
+        <div class="row">
+          <div class="col-lg-4 ml-auto">
+            <p class="lead text-secondary">I am a master's student at MIT's Department of Urban Studies and Planning concentrating in City Design and Development. Before graduate school, I studied studio art and literature, served as an AmeriCorps environmental educator with the Maine State Parks and Maine Audubon, and worked at an energy efficiency engineering and consulting firm in Burlington, Vermont. After graduating from MIT in spring 2018, I am moving to Madison, Wisconsin to continue my career in urban planning.</br></br>
+			       My professional interests include:</br> physical planning and urban design that incorporates environmental resiliency and placemaking; innovative engagement processes that reach all community members, context-specific community development, and future-oriented land use and transportation strategy. </br>
+          </div>
+          <div class="col-lg-4 mr-auto">
+            <p class="lead text-secondary">My current research is focused on: </br>missing middle housing in Austin, TX, industrial land use conversion and retrofit in Milwaukee, Madison, and Saint Paul, and <a href="http://web.mit.edu/ebj/www/ww1/background.html">the US Housing Corporation's housing development and neighborhood planning work during WWI</a> for Professor Eran Ben-Joseph. </br></br>To find out more about what I'm working on, check out my recent <a href="#portfolio">PROJECTS</a>.
+            </br></br>
+            Also check out some of my <a href="art.html">ART</a> projects. 
+
+        <!--     and my <a href="resume.html">RESUME</a>. -->
+
+            <!--  or click on one of the following links:
+            </br></br><a href="">Theory of Practice and Personal Values</a>
+        	</br></br><a href="">Portfolio - PDF Version</a>
+    		</br></br><a href="">Resume</a> -->
+            </p>
+          </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Contact</h2>
+        <hr class="star-light mb-2">
+        <img class="img-fluid mb-5 d-block mx-auto" src="img/contactmap_crop.png" alt="">
+        <p class="text-center font-weight-light mb-0 text-secondary">I currently live in Somerville, Massachusetts, but will relocate to Madison, Wisconsin in June 2018. </br> </br>
+        You can reach me by email at <a href="mailto:danya@mit.edu">danya@mit.edu</a></br></p>
+        
+			<center>
+			<div class="col-sm-auto">
+			  <ul class="list-inline mb-0 mt-4">
+			        <a class="btn btn-outline-light btn-social text-center rounded-circle mb-0 horizontal-align" href="https://www.linkedin.com/in/danya-m-f-littlefield-98087321/">
+			              <i class="fa fa-fw fa-linkedin"></i>
+			        </a>
+			      </ul>
+			    </div>
+			</center> 
+		</div>
+	</section>          
+         
+<!-- 
+        <div class="row">
+          <div class="col-lg-8 mx-auto">  -->
+
+            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+            <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+            <!-- Get rid of the form
+            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Name</label>
+                  <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Email Address</label>
+                  <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Phone Number</label>
+                  <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Message</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <br>
+              <div id="success"></div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+              </div>
+            </form>
+            -->
+
+
+
+
+
+    <!-- footer 
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          
+       
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h1 class="text-uppercase mb-4 text-center">Contact</h1>
+            <p class="lead mb-0">
+              <br></p>
+          </div>
+     
+
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4"></h4>
+            <ul class="list-inline mb-0">
+
+              
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-google-plus"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-twitter"></i>
+                </a>
+              </li>
+              
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+           
+          <div class="col-md-4">
+            <h4 class="text-uppercase mb-4"></h4>
+            <p class="lead mb-0">
+              <a href="http://startbootstrap.com"></a></p>
+          </div>
+        
+        </div>
+      </div>
+    </footer>
+  -->
+
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small>Copyright &copy; Danya M. F. Littlefield 2018</small>
+      </div>
     </div>
-</body>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Imagine Madison</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="projects/ImagineMadison.png" alt="">
+              <p class="mb-5 text-left">As part of the Imagine Madison Comprehensive Plan update team for the City of Madison during the summer of 2017, I worked with the Planning Division staff to coordinate community engagement appearances throughout the city and create fun ways to give feedback on the plan, from booths at festivals and farmer's markets to a community discussion event at the central library. I also created a methodology and lead a process for summarizing and analyzing the data collected through community engagement. </br></br>Through speaking with Madisonians about the Comprehensive Plan city staff realized that the Future Land Use Map, which is one of the most important tools that the city has for land-use planning, was not easily understood by community members. I developed an educational board and presentation to explain how the FLU is used and what it means for the future of Madison as part of our engagement efforts. <a href="https://www.imaginemadisonwi.com/">Find out more about Imagine Madison here.</a></p>
+          <!--     <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <h2 class="text-tertiary text-uppercase mb-0">Prelude | Procession | Pond | Party</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="projects/EcoUrb.png" alt="">
+              <p class="mb-5 text-left">This placemaking proposal for the former Mill Creek watershed in West Philadelphia responded to the landscape and neighborhood context  by celebrating the life of the former creek through a day-long series of proposed events, art installations, performances, and community meetings. The proposal ties together the historical narrative of subsiding urban land in an buried flood plain with future-oriented planning processes, building on the ideas of landscape literacy first developed through the <a href="http://www.wplp.net/">West Philadelphia Landscape Project</a>.
+              </br></br>This project was made in collaboration with Ben Turpin and Chelsea Bruck as part of a class entitled <i>Ecological Urbanism.</i></p>
+             <!--  <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <h2 class="text-secondary mb-0">Connecting Bowdoin Geneva</h2>
+              <img class="img-fluid mb-5" src="projects/BGMS3.png" alt="">
+              <p class="mb-5 text-left">During the spring semester of 2017, I acted as Co-Project Manager for a group of 16 of my peers as we developed a commercial corridor revitalization plan for a low-income district in the Dorchester neighborhood of Boston, MA. The plan included an evaluation and inventory of the businesses on the corridor as well as the built environment and a market study to determine what opportunities for new businesses in the neighborhood commercial area could be, as well as an in-depth physical analysis of the existing streetscape, transportation network, and open space network. Our class held two public workshops, conducted business owner surveys, focus groups, and stakeholder interviews, and gave a final presentation to the community with our urban design and economic development recommendations. 
+
+              </br></br>In 2018, <i>Connecting Bowdoin Geneva</i> was awarded the national <a href="https://www.planning.org/students/awards/studentprojects/">AICP Student Project Award for Application of the Planning Process</a>.
+              
+              </br></br>The final report can be found here: <a href="https://issuu.com/mit-dusp/docs/connectingbowdoingeneva-issuu">Connecting Bowdoin Geneva – A Plan for Community and Commerce</a> 
+          		</br></br>Our Partner: <a href="http://bowdoingenevams.org/">Bowdoin Geneva Main Streets</a>
+				</p>
+         
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+     <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <h2 class="text-secondary mb-0">Boston Zero</h2>
+              <img class="img-fluid mb-5" src="projects/BostonZero.png" alt="">
+              <p class="mb-5 text-left">This neighborhood design for the Boston Seaport district adjacent to East Boston was made by repeating an optimized “protoblock” design across a large site. The protoblock iterations were made to optimize daylighting and energy use using the Rhino-based urban energy modeling software developed at MIT called UMI. The complete site plan also featured solar panels on rooftops and an optimized distribution of amenities across the neighborhod. </br></br>Shown above are the modeling results for the whole site design using UMI - at left, the daylighting model results are displayed on the floorplates of the site, while the image at the top right shows a walkability score displayed across the site based on proximity to parking. Below, each use of the site model is displayed in additive layers.
+			</br></br>
+			The entire project presentation can be viewed at the <a href="http://web.mit.edu/sustainabledesignlab/projects/UMIverse/UMIverse.html">MIT Sustainable Design Lab website.</a>
+			</br></br>
+			Project in collaboration with Greg Hopkins, Jiamin Sun, and Edward Barbour. </br>
+			Contribution: 100% of site plan, street grid, and open space planning based on protoblock iterations at left, 25% of energy and daylight modeling, 100% of 3D build diagrams.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <h2 class="text-secondary mb-0">Is the Middle Class Left Out in PA?</h2>
+              <img class="img-fluid mb-5" src="projects/Housing.png" alt="">
+              <p class="mb-5 text-left">This data analysis and visualization project used PUMS census data to analyze housing cost burden across income brackets in Pennsylvannia, among both renters and owners, to better understand which segments of the population were experiencing extreme burden, and burden that is increasing over time. The article includes infographics and interactive data visualizations made with D3 to uncover this story.</br></br>The complete interactive website can be viewed <a href="http://epkh.github.io/housingburden">here.</a></br></br>This project was completed in collaboration with Phoebe Holtzman and Emily Long in Spring 2017 for a class entitled <i>Big Data Visualization</i>.</p>
+              <!-- <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Urban Design Skills</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="projects/MagazineSquare.png" alt="">
+              <p class="mb-5 text-left">This theoretical mixed-use development project in Cambridge, Massachusetts was the culminating project for the <i>Introduction to Urban Design Skills</i> class at MIT. The project mirrored Magazine Beach Park into the site with a linear “Wedge Park,” and improved pedestrian connectivity with public plazas, raised crosswalks, and directing pedestrians to an exisitng bridge across Memorial Drive while incorporating green infrastructure into new public space. Academic work, fall 2016.
+				</br></br>
+				Project in collaboration with Mario Gampieri, Nneka Sobers, and Daniel Mascoop
+			</br>
+		Contribution: context analysis - 100%; site design in collaboration with group - 25%; detailed Wedge Park drawing - 100%; open space systems diagram - 50%</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/freelancer.js"></script>
+
+  </body>
+
 </html>
